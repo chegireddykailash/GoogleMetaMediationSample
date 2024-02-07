@@ -1,0 +1,21 @@
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user added CAs while debuggable only -->
+            <certificates src="user" />
+
+        </trust-anchors>
+    </debug-overrides>
+
+
+
+
+
+    <domain-config>
+        <domain includeSubdomains="true">api.jio.com</domain>
+        <domain includeSubdomains="true">way2news.co</domain>
+        <domain includeSubdomains="true">way2.co</domain>
+        <domain includeSubdomains="true">way2newsapp.com</domain>
+        <domain includeSubdomains="true">proapi.way2news.co</domain>
+    </domain-config>
+</network-security-config>
